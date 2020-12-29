@@ -1,0 +1,64 @@
+/* CSS Document */
+*{ margin:0; padding:0;}
+.topbg{ width:100%; height:80px; background:#0f0f0f;line-height:80px; position:fixed; z-index:9999;}
+.logo{ float:left; margin-top:15px;}
+.dh{ float:right; line-height:80px;}
+.dh li{ float:left; margin:0 15px;}
+.dh li a{ color:#ffffff; font-size:14px; font-family:"微软雅黑"; padding:3px 8px;}
+.dh li a:hover{ text-decoration:none; background:#FFF; color:#000000; border-radius:8px;}
+.banner{ width:100%; height:auto; margin-top:80px;}
+.mob-top{height:50px;background:#000; position:fixed; width:100%; z-index:100;top:0;left: 0;}
+.mob-top ul{display:none; float: right; position: absolute;top: 50px; right:0; text-align: center; width: 100%;}
+.mob-top ul li{display: block; background: #000;padding: 8px 0;}
+.mob-top ul li a{color: #ffffff; font-size: 14px; font-family:"微软雅黑";}
+.mob-top.open ul{display:block;}
+.mob-banner{ margin-top: 50px;}
+.showtitle{ margin:50px 0; }
+.showtitle p a{font-size:16px; font-family:"微软雅黑";color:#333;}
+.showtitle p a:hover,.showtitle .on a{padding: 8px 45px; background: #fd7c32; border-radius: 5px;color: #ffffff; text-decoration:none; cursor: pointer;}
+.anlipic{margin-bottom:20px;}
+.alanimate{ width: 360px; height: 50px; background:rgba(0,0,0,.6); position: absolute; bottom: 0;left: 15px; line-height: 50px;display: none;}
+.lg-intro a{color: #ffffff; font-size:16px; font-family:"微软雅黑";}
+.lg-intro a:hover{color: #ffffff;}
+.anli-introduce{ padding-bottom: 3px;}
+.anli-introduce a{ color:#333333; font-size:12px;}
+.anlibody-pc{ display:none;}
+.footbg{ width:100%; height:auto; background:#282828; margin-top:60px;}
+.footbox{ width:100%; height:auto;padding:20px 0;}
+.erweima p{ color:#676767; font-size:12px; margin-bottom:10px; font-family: "微软雅黑";margin-left: 30px;}
+.erweima .zixun{ margin-left: 10px; margin-top: 10px;}
+.lianxi{ line-height:25px;margin-top: 40px;}
+.lianxi p{ color:#676767; font-size:12px;font-family: "微软雅黑";}
+.lianxi p span{ padding: 0 5px; }
+.lianxi p span img{display:inline-block;}
+.address{ background: url(../images/address.png) no-repeat; width: 15px; height: 18px;display:inline-block;margin-right: 5px; vertical-align: text-bottom;}
+.tel{ background: url(../images/tel.png) no-repeat; width: 18px; height: 18px;display:inline-block; margin-right: 5px; vertical-align: text-bottom;}
+.email{ background: url(../images/email.png) no-repeat; width: 21px; height: 15px;display:inline-block;vertical-align:text-bottom;margin-right: 5px; vertical-align: text-bottom;}
+.footbg02{ width: 100%;background: #101010;padding:10px 0;}
+.beian{color: #676767;font-size: 12px; font-family: "微软雅黑";}
+@media screen and (max-width:640px){
+   .xstitle{font-size:14px; font-family:"微软雅黑";color:#333; padding-top:10px;}
+   .showtitle{ margin:0;}
+   .logo-m{float:left; margin-top: 12px;}
+   .icon{ width: 54px; height: 31px; float: right; margin-top: 10px;}        
+   .banner{ width:100%; height:auto; margin-top:35px;}
+   .anlishow a img{margin-bottom:10px;}
+   .anlipic{margin-bottom:0;}
+   .anlipic .anli-introduce{margin-bottom:0px;padding-bottom:0}
+   .anlipic .anli-introduce a{line-height: 25px;}
+
+   .footbox{ width:100%; height:auto;padding:20px 0;}
+    .erweima p{margin-left: 0;}
+    .erweima .zixun{ margin-left: 0px;}
+    .lianxi{line-height:15px; margin-top: 0px;}
+    .lianxi p{ padding-left:0px;}
+    .footbg{ margin-top:20px;}
+
+
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
